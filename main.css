@@ -1,0 +1,187 @@
+.container{
+    background-color: #12E172;
+    margin: 0px;
+    display: flex;
+}
+body{
+    margin: 0px;
+    display: block;
+}
+  .logo{
+    height: 170px;
+    width: 150px;
+    margin: -30px;
+    margin-left: -68px;
+  }
+  .logotext{
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+  }
+  header{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding-bottom: 5px;
+  }
+  .alllogo{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    margin-left: 5px;
+    justify-content: center;
+    height: 100px;
+    width: 215px;
+    padding-left: 27px;
+    border-radius: 0px 0px 50px 50px;
+    
+  }
+.allpages{
+  flex-direction: row;
+  margin: 0px 283px 0px 400px;
+  padding: 0px;
+}  
+.pages{
+  margin-right: 100px;
+}
+.singup{
+  text-align: center;
+  justify-content: center;
+}
+.singuptext{
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  background: rgb(121,217,255);
+  text-align: center;
+  border-radius: 100px;
+  margin-right:22px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+.singuptext:hover {
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+}
+.pages{
+  text-decoration: none;
+  color: black;
+}
+main{
+  background-color: #15DF72;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0px
+  
+}
+.maintext{
+  display: flex;
+  color: white;
+  justify-content: flex-start;
+  font-family: sans-serif;
+  font-size: 64px;
+  text-shadow: 2px 2px #000000;
+  width: 100px;
+}
+.joinus{
+  border-radius: 100px;
+}
+.join{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+.singuptext2{
+  border-radius: 100px;
+  width: 200px;
+  padding: 10px 10px 10px 10px;
+  background: rgb(121,217,255);
+  text-align: center;
+  border-radius: 100px;
+  margin-right:22px;
+  margin-top: 55px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+.singuptext2:hover {
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+}
+.main2 {
+  justify-content: center;
+  background-color: wheat;
+  height: 627px;
+  display: flex;
+  flex-direction: column;
+}
+.kinds_of_recipes{
+  margin-top: 50px;
+  font-size: 48px;
+  font-family: sans-serif;
+  color:#12E172;
+}
+
+.images_of_recipes{
+  margin-top: 100px;
+}
+.food{
+  margin: 10px;
+}
+.texts{
+  margin: 43px;
+  color: #3FE58B;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main3{
+  display: flex;
+  background: #D9D9D9;
+  margin: 20px 20px 20px 20px;
+  height: 350px;
+  flex-shrink: 0;
+  align-items: space-around;
+ flex-direction: column;
+}
+.quotes{
+   color: #000;
+font-family: Caveat;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 50px 0px 0px 50px;
+}
+.author{
+  font-family: Caveat;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 50px 0px 0px 1000px;
+
+}
+.whiteblock{
+  height: 345px;
+}
+
+.main4{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:#12E172;
+height: 200px;
+}
+.copyright{
+color: #000;
+font-family: Abel;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
