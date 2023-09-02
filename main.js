@@ -1,0 +1,1 @@
+document.getElementById("home").addEventListener("click" ,function() {document.getElementsByClassName("maintext")[0].style.display = "none";document.getElementsByClassName("maintext1")[0].style.display = "flex"; });
