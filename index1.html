@@ -8,17 +8,58 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Phudu:wght@900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="main">
+    
+    <div class="main"><nav class="above_text">
+    <div class="main_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae esse possimus praesentium aliquid eaque corporis vero neque voluptate perspiciatis atque, exercitationem, veniam voluptatum enim quod, similique consequuntur. Quis, ex sed!</div>
     <div class="container"><h2 style="color: aliceblue;font-family: 'Black Ops One', cursive; margin-top: 110px;">Sing-up</h2>
-        <form action="example.com/path" method="post">
-            <label for="first_name">First Name:</label>
-            <input type="text" id="first_name" name="first_name"><textarea>asldj asljd aslk.</textarea>
-          </form>
+        <form action="example.com/path" method="get" >
+           <div class="all_a">
+            <div class="a" id="allforms">
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="first_name" placeholder="for example John etc."  minlength="3" maxlength="32" required>
+            </div>
+            <div class="all_a">
+            <div class="a" id="allforms">
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" name="last_name" placeholder="for example Wick" required>
+            </div>
+        </div>
+    </div> 
+            <div class="all_a">
+            <div class="b" id="allforms">
+                <label for="user_email">email</label>
+                <input type="email" id="user_email" name="user_email" required>
+            </div>
+            <div class="b" id="allforms">
+                <label for="phone_number">phone number</label>
+                <input type="tel" id="phone_number" name="phone_number" pattern="(\d{3}([\-]\d{3})([\-]\d{3})?)" required>
+            </div>
+        </div>
+        <div class="all_a">
+            <div class="c" id="allforms">
+                <label for="password">password</label>
+                <input type="password" id="password" name="password" minlength="8" required>
+            </div>
+            <div class="c" id="allforms">
+                <label for="confirm_password">confirm password</label>
+                <input type="password" id="confirm_password" name="confirm_password" minlength="8" required>
+            </div></div>
+        
     </div>
+    <button class="Create_account" type="button">Create Account</button>
+    <h3 class="have_account">already have a account? <a href='' class="log_in">log in</a></h3>
+</nav>
+    
+</form>
     <img src="img/Ab.jpg" alt="" class="image_of_burger">
     <h1 class="big-text">Sing-up</h1>
 </div>
+<script src="registration.js">
+</script>
 </body>
 </html>
